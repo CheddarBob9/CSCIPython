@@ -31,3 +31,21 @@ friendList = ["Joseph", "Glenn", "Sally"]
 for friend in friendList:
     print("Happy Birthday,", friend)
 print("#2025")
+
+
+
+# Loop idioms / smart loops
+print("Before loop")
+for thing in [14, 545, 25, 36, 67, 92, 5, 1]:
+    print(thing)
+print("After loop")
+
+# Loop to determine largest number
+maxNum = 0
+for number in [14, 545, 25, 36, 67, 92, 5, 1]:
+    if number > maxNum:
+        maxNum = number
+    print(number)
+    print(maxNum)
+
+print("Done", maxNum, "is the largest number in the set")
